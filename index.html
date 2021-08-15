@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="./img/msh.gif" type="image/x-icon"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"/>
+    <!-- Google Fonts Roboto -->
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!--lightbox-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
+</head>
+<body>
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- Container wrapper -->
+            <!-- Toggle button -->
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img
+                            src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
+                            height="15"
+                            alt=""
+                            loading="lazy"
+                    />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Басты бет</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Соңғы жаңалықтар</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Фотолар</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Мен туралы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Байланысу</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Icon -->
+                <!--<a class="text-reset me-3" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>-->
+
+                <!-- Notifications -->
+                <a
+                        class="text-reset me-3 dropdown-toggle hidden-arrow"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-mdb-toggle="dropdown"
+                        aria-expanded="false"
+                >
+                    <i class="fas fa-bell"></i>
+                    <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                </a>
+                <ul
+                        class="dropdown-menu dropdown-menu-end"
+                        aria-labelledby="navbarDropdownMenuLink"
+                >
+                    <li>
+                        <a class="dropdown-item" href="#">Some news</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Another news</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                </ul>
+
+                <!-- Avatar -->
+                <a
+                        class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-mdb-toggle="dropdown"
+                        aria-expanded="false"
+                >
+                    <img
+                            src="./img/madara-user.png"
+                            class="rounded-circle"
+                            height="25"
+                            alt=""
+                            loading="lazy"
+                    />
+                </a>
+                <ul
+                        class="dropdown-menu dropdown-menu-end"
+                        aria-labelledby="navbarDropdownMenuLink"
+                >
+                    <li>
+                        <a class="dropdown-item" href="#">My profile</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Settings</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+        </div>
+    </nav>
+    <!-- Navbar -->
+</header>
+<main class="my-5 pt-4">
+    <div>
+        <div class="container">
+            <div class="card jumbotron_img mb-4">
+                <div class="card-body text-center">
+                    <div class="">
+                        <img class="" width="72" height="57"
+                             src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg"
+                             alt=""/>
+                    </div>
+                    <div>
+                        <h1 class=" text-white">Менің блогыма <br/> қош келдіңіздер!</h1>
+                    </div>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="mb-4  text-white">
+                            Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+                            popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
+                            system, extensive prebuilt components, and powerful JavaScript plugins.
+                        </p>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn-lg">
+                            Толығырақ
+                        </button>
+                        <button class="btn btn-outline-secondary btn-lg">
+                            Мәліметтер
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--last-news-->
+            <div class="h2 py-5 text-center">
+                Соңғы жаңалықтар
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="./img/italy.jpg"
+                             class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h3 class="card-title">Менің Италияға саяхатым</h3>
+                            <h6 class="card-title">14/08/2021</h6>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+                            <a href="#!" class="btn btn-primary">Толығырақ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="./img/puppy.jpg"
+                             class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h3 class="card-title">Күшіктер туралы мәліметтер</h3>
+                            <h6 class="card-title">10/08/2021</h6>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+                            <a href="#!" class="btn btn-primary">Толығырақ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="./img/LA.jpg"
+                             class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h3 class="card-title">Менің сүйікті Los Angles-ім</h3>
+                            <h6 class="card-title">01/10/2021</h6>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+                            <a href="#!" class="btn btn-primary">Толығырақ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="./img/elsa.jpg"
+                             class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h3 class="card-title">Менің сүйікті Актрисам <span class="elsa">ELSA</span></h3>
+                            <h6 class="card-title">Каждый божий день</h6>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+                            <a href="#!" class="btn btn-primary">Толығырақ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--images-->
+            <div class="h2 py-5 text-center">
+                Фотогалерея
+            </div>
+            <!--photo-gallery-->
+            <div class="photo-gallery">
+                <div class="container">
+                    <div class="row photos">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a href="./img/lightbox/desk.jpg" data-lightbox="photos">
+                                <img class="img-fluid" src="./img/lightbox/desk.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a href="./img/lightbox/building.jpg" data-lightbox="photos">
+                                <img class="img-fluid" src="./img/lightbox/building.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a href="./img/lightbox/loft.jpg" data-lightbox="photos">
+                                <img class="img-fluid" src="./img/lightbox/loft.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a href="./img/lightbox/building.jpg" data-lightbox="photos">
+                                <img class="img-fluid" src="./img/lightbox/building.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a href="./img/lightbox/loft.jpg" data-lightbox="photos">
+                                <img class="img-fluid" src="./img/lightbox/loft.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a href="./img/lightbox/desk.jpg" data-lightbox="photos">
+                                <img class="img-fluid" src="./img/lightbox/desk.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a href="./img/lightbox/desk.jpg" data-lightbox="photos">
+                                <img class="img-fluid" src="./img/lightbox/desk.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a href="./img/lightbox/desk.jpg" data-lightbox="photos">
+                                <img class="img-fluid" src="./img/lightbox/desk.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/photo-gallery-->
+
+
+        </div>
+
+        <!--attachment-bg-->
+        <div class="parallax">
+            <div class="parallaxText text-center text-white">
+                ~ Человек, познавая любовь, рискует познать ненависть... ~
+            </div>
+        </div>
+
+        <!--about-me-->
+        <div class="container py-5">
+            <div class="h2 py-5 text-center">
+                Мен туралы мәлімет
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-md-12 col-sm-12">
+                    <img class="img-fluid" src="./img/madara-blog.jpg" alt="" style="border-radius: 10px;"/>
+                </div>
+                <div class="col-xl-6 col-md-12 col-sm-12">
+                    <div class="h5 my-4 text-center">
+                        Менің есімім Мадара Учиха
+                    </div>
+                    <div>
+                        <p>
+                            Мадара Учиха (яп. うちはマダラ, Учиха Мадара) был легендарным лидером клана Учиха. Он основал
+                            Деревню Скрытого Листа вместе со своим другом и соперником, Хаширамой Сенджу, с намерением
+                            положить начало мирной эпохе. Когда они двое разошлись во взглядах, как именно достичь этого
+                            мира, то сразились за главенство над деревней в битве, которая завершилась смертью Мадары.
+                            Тем не менее, впоследствии, он переписал свою смерть и стал скрываться от мира, чтобы
+                            продолжать работу над своими планами. Как оказалось, Мадара был не в состоянии завершить их
+                            на протяжении своей природной жизни, поэтому доверил свои знания и стремления Обито Учихе
+                            незадолго до своей настоящей смерти. Года спустя, Мадара был воскрешен, но в конце концов
+                            встретил окончательный провал своих планов, прежде чем повторно умереть.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--form-->
+        <div class="container py-5">
+            <div class="col-xl-6 mx-auto">
+                <div class="h2 py-5 text-center">
+                    Менімен Байланысу
+                </div>
+                <form>
+                    <!-- Name input -->
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form4Example1" class="form-control"/>
+                        <label class="form-label" for="form4Example1">
+                            Аты жөніңіз
+                        </label>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="form4Example2" class="form-control"/>
+                        <label class="form-label" for="form4Example2">
+                            Электронды почтаңыз
+                        </label>
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="form-outline mb-4">
+                        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                        <label class="form-label" for="form4Example3">
+                            Хабарлама қалдырыңыз
+                        </label>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                        <input
+                                class="form-check-input me-2"
+                                type="checkbox"
+                                value=""
+                                id="form4Example4"
+                                checked/>
+                        <label class="form-check-label" for="form4Example4">
+                            Send me a copy of this message
+                        </label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-danger btn-block mb-4">
+                        Жіберу
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!-- MDB -->
+<!--jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+<!--lightbox-js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+</body>
+</html>
