@@ -1,17 +1,8 @@
-
-.container-fluid {
-    border: 1px solid blue;
-}
-
 .jumbotron_img {
     background-image: url('../img/madara-mask.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
-.elsa {
-    color: red;
-}
-
 /*light-box*/
 .photo-gallery {
     color:#313437;
